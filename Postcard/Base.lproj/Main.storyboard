@@ -93,6 +93,15 @@
                                     <rect key="frame" x="26" y="82" width="323" height="62"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85Q-6J-S49">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="26" y="152" width="235" height="21"/>
+                                </variation>
+                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bid-9S-uAC">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -109,6 +118,7 @@
                                 <exclude reference="37c-at-NOd"/>
                                 <exclude reference="Muv-UG-Xlu"/>
                                 <exclude reference="Q8y-Kp-6PU"/>
+                                <exclude reference="85Q-6J-S49"/>
                                 <exclude reference="Bid-9S-uAC"/>
                             </mask>
                         </variation>
@@ -118,6 +128,7 @@
                                 <include reference="37c-at-NOd"/>
                                 <include reference="Muv-UG-Xlu"/>
                                 <include reference="Q8y-Kp-6PU"/>
+                                <include reference="85Q-6J-S49"/>
                                 <include reference="Bid-9S-uAC"/>
                             </mask>
                         </variation>
@@ -127,6 +138,7 @@
                         <outlet property="enterNameTextField" destination="37c-at-NOd" id="LCV-a9-blu"/>
                         <outlet property="mailButton" destination="Muv-UG-Xlu" id="z2J-hr-2Z0"/>
                         <outlet property="messageLabel" destination="Q8y-Kp-6PU" id="Tqd-Yb-1KR"/>
+                        <outlet property="nameLabel" destination="85Q-6J-S49" id="028-jV-bKK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
